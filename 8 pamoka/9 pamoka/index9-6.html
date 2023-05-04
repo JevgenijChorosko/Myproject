@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1pratimas</title>
+</head>
+
+<body>
+    <button>Push!</button>
+
+
+    <script>
+function generateRandomColor() {
+  const randomBetween = (min, max) => min + Math.floor(Math.random() * (max - min + 1));
+  const r = randomBetween(0, 255);
+  const g = randomBetween(0, 255);
+  const b = randomBetween(0, 255);
+  return `rgb(${r},${g},${b})`;
+}
+
+document.querySelector('button').addEventListener('click', event => {
+  event.target.style.backgroundColor = generateRandomColor();
+});
+
+
+    </script>
+</body>
+
+</html>

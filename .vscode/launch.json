@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://zany-skitter-caper.glitch.me/skills",
+            "request": "launch",
+            "url": "https://zany-skitter-caper.glitch.me/skills"
+        }
+    ]
+}
